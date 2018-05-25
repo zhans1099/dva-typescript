@@ -1,0 +1,7 @@
+{
+  "build": "npm run clear && npm run ci",
+  "directories": {
+    "static": "dist",
+    "html": "html"
+  }
+}

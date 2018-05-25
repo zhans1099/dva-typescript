@@ -1,0 +1,20 @@
+@import '../../../assets/themes/color.less';
+.card-sheet {
+  padding: 10px 0 0 10px;
+  .ant-tabs.ant-tabs-card .ant-tabs-bar {
+    margin: 0 0 15px;
+    .ant-tabs-tab {
+      border: 1px solid @layout-body-background;
+      background: @layout-body-background;
+    }
+  }
+  .ant-tabs.ant-tabs-card > .ant-tabs-bar .ant-tabs-tab-active {
+    background: #fff;
+  }
+  .ant-tabs-content-no-animated .ant-tabs-tabpane {
+    display: none;
+  }
+}
+.card-container > .ant-tabs-card > .ant-tabs-content {
+  height: 100%;
+}
